@@ -38,7 +38,7 @@
    }
 
    .image1{
-    width: 1400px;
+    width: 100%;
     height: 600px;
    }
    .image2{
@@ -142,7 +142,7 @@
     }
 
     #mainF{
-        height: 70px;
+        height: 120px;
        width: 100%;
        margin-top: 500px;
        background-color: darkred;
@@ -153,77 +153,77 @@
     }
 
       
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
    
-   
-   #one{
-       width: 24.5%;
-       height: 280px;
-       background-color: orange;
-       float: left;
-       border: 5px solid black;
-   }
-   
-   
-   #two{
-       width: 24.25%;
-       height: 280px;
-       background-color: orange;
-       float: left;
-       border: 5px solid black;
-   }
-   
-   
-   #three{
-       width: 24.25%;
-       height: 280px;
-       background-color: orange;
-       float: left;
-       border: 5px solid black;
-   }
-   
-   #four{
-       width: 24%;
-       height: 280px;
-       background-color: orange;
-       float: left;
-       border: 5px solid black;
-   }
-   
-   #five{
-       width: 24.30%;
-       height: 280px;
-       background-color: orange;
-       float: left;
-       border: 5px solid black;
-   }
-   
-   
-   #six{
-       width: 24.30%;
-       height: 280px;
-       background-color: orange;
-       float: left;
-       border: 5px solid black;
-   }
-   
-   
-   #seven{
-       width: 24.30%;
-       height: 280px;
-       background-color: orange;
-       float: left;
-       border: 5px solid black;
-   }
-   
-   #eight{
-       width: 24%;
-       height: 280px;
-       background-color: red;
-       float: left;
-       background-color: orange;
-       border: 5px solid black;
-          
-   }
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      
+      .fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+
+      #main9{
+        float: left;
+        margin-left: 90px;
+        height: 400px;
+        width: 550px;
+        
+        font-size: 20px;
+      }
+      
+    #main8    {
+        float: right;
+        margin-right: 180px;
+        margin-bottom: 100px;
+    }
+
+    #main10{
+        margin-top: 100px;
+        float: left;
+        margin-left: 100px;
+        height: 200px;
+        width: 400px;
+        font-size: 20px;
+    }
+    #main11{
+      float: right;
+      margin-right: 180px;
+      margin-bottom: 100px;
+    }
+
+    #n1{
+        width: 100vw;
+        height: 300px;
+        float: left;
+    }
+
+    #n2{
+        width: 100%;
+        height: 300px;
+    }
+
+    
+      
+      
+      
    
    
    
