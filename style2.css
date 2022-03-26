@@ -140,11 +140,29 @@
         margin-right: 180px;
         margin-bottom: 100px;
     }
-
+    
+    .nameun{
+      color: black;
+      margin-top: 30px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
     #mainF{
-        height: 120px;
+      height: 120px;
+     width: 100%;
+     margin-top: 500px;
+     background-color: darkred;
+     color: white;
+     font-size: 30px;
+     box-shadow: 2px 2px 5px lightgrey;
+     padding: 5px;
+  }
+
+
+    #mainF2{
+        height: 100px;
        width: 100%;
-       margin-top: 500px;
+       margin-top: 130px;
        background-color: darkred;
        color: white;
        font-size: 30px;
@@ -308,8 +326,19 @@
     }
 
     .leftImage{
-        margin-left: 100px;
+        margin-right: 100px;
     }
+
+    .column{
+      float: left;
+    }
+
+    .un{
+      margin-top: 20px;
+      margin-right: 50px;
+    }
+
+    
       
     
    
