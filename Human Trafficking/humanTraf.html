@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Justice Vision
+  </title>
+  <link href="traf.css" rel="stylesheet"/>
+  <link href="style2.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .accordion {
+        background-color: #eee;
+        color: #000000;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+       
+      }
+
+      .active,
+      .accordion:hover {
+        background-color: #deb887;
+      }
+
+      .accordion:after {
+        content: "\002B";
+        color: #000000;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+      }
+
+      .active:after {
+        content: "\2212";
+      }
+
+      .panel {
+        padding: 0 18px;
+        background-color: #deb887;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div id="header">
+      <div id="lefth" >
+        <img src="/images/logo1.jpeg" class="image">
+        
+      </div>
+      <div id="midh">
+        <h3>JUSTICE VISION</h3>
+      </div>
+      <div id="righth">
+        <ul>
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+           
+            <li><a href="contact.html">Contact Us</a></li>
+           
+        </ul>
+      </div>
+  </div><br><br><br><br><br>
+
+  <div id = "tra">
+    <h1>&nbsp;HUMAN TRAFFICKING</h1>
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+    <button class="accordion"><b> What are your rights? </b></button>
+    <div class="panel">
+      <p style="font-size: 18px">
+        Article 23
+        <br>
+        <br>
+    Trafficking in Human Beings or Persons is prohibited 
+    under the Constitution of India under Article 23 (1) 
+    The Immoral Traffic (Prevention) Act, 1956 (ITPA) is the premier legislation 
+    for prevention of trafficking for commercial sexual exploitation
+      </p>
+    </div><br>
+
+    <button class="accordion"><b>How to file a case?</b></button>
+    <div class="panel">
+      <p style="font-size: 18px">
+        You can report a case on tollfree number 1800 419 8588
+      </p>
+    </div><br>
+
+    <button class="accordion"><b>When to file a case?</b></button>
+    <div class="panel">
+      <p style="font-size: 18px">
+        Detect the following symptoms, if found immidietly report------>
+        <br><br>
+        Living with employer.
+        <br><br>
+Poor living conditions.
+<br><br>
+Multiple people in cramped space.
+<br><br>
+Inability to speak to individual alone.
+<br><br>
+Answers appear to be scripted and rehearsed.
+<br><br>
+Employer is holding identity documents.
+<br><br>
+Signs of physical abuse.
+<br><br>
+Submissive or fearful.
+    
+      </p>
+    </div><br>
+
+    <button class="accordion">
+      <b>What are Laws related to this crime?</b>
+    </button>
+    <div class="panel">
+      <p style="font-size: 18px">
+        1)Trafficking in Human Beings or Persons is prohibited under the Constitution of India under Article 23 (1)
+        <br>
+        <br>
+        2)The Immoral Traffic (Prevention) Act, 1956 (ITPA) is the premier legislation for prevention of trafficking for commercial sexual exploitation.
+    </p> 
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
