@@ -1,0 +1,14 @@
+#bull {
+    position: relative;
+    margin-left: 150px;
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    z-index: 3;
+    left: 100px;
+    top:150px; 
+    }
+ h1 {
+        background-image: linear-gradient(45deg, #eccda4, #af4261);
+        width : 1000px;
+    }
