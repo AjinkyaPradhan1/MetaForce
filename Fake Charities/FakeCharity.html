@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Justice Vision
+  </title>
+  <link href="FakeCharity.css" rel="stylesheet"/>
+  <link href="style2.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .accordion {
+        background-color: #eee;
+        color: #000000;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+       
+      }
+
+      .active,
+      .accordion:hover {
+        background-color: #deb887;
+      }
+
+      .accordion:after {
+        content: "\002B";
+        color: #000000;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+      }
+
+      .active:after {
+        content: "\2212";
+      }
+
+      .panel {
+        padding: 0 18px;
+        background-color: #deb887;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div id="header">
+      <div id="lefth" >
+        <img src="/images/logo1.jpeg" class="image">
+        
+      </div>
+      <div id="midh">
+        <h3>JUSTICE VISION</h3>
+      </div>
+      <div id="righth">
+        <ul>
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+           
+            <li><a href="contact.html">Contact Us</a></li>
+           
+        </ul>
+      </div>
+  </div><br><br><br><br><br>
+
+  <div id = "fake">
+    <h1>&nbsp;FAKE CHARITIES</h1>
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+    <button class="accordion"><b> What are your rights? </b></button>
+    <div class="panel">
+      <p style="font-size: 18px">
+        1) Ask for the reason of money donation.
+        <br>
+        <br>
+        2) Ask for the receipts
+        <br>
+        <br>
+        3) Ask for the donated money's use from the charity
+      </p>
+    </div><br>
+
+    <button class="accordion"><b>How to file a case?</b></button>
+    <div class="panel">
+      <p style="font-size: 18px">
+        
+        If you're a victim of charity or disaster fraud or have information about these types of schemes, you can:
+        <br>
+        <br>
+
+
+Contact your state consumer protection office
+<br>
+<br>
+
+Report fraud to the CBI at cbi.gov
+<br>
+<br>
+Report online fraud to the CBI's Internet Crime Complaint Center 
+<br>
+<br>
+File a complaint with the Federal Trade Commission (FTC)
+<br>
+<br>
+Report suspected disaster-related fraud to the National Center for Disaster Fraud
+
+
+
+        
+      </p>
+    </div><br>
+
+    <button class="accordion"><b>When to file a case?</b></button>
+    <div class="panel">
+      <p style="font-size: 18px">
+        If any of the scenarios below are being undertaken by a charity then do report immidietly:
+        <br>
+        <br>
+        Pressure to give right now.
+        <br>
+        <br>
+         A legitimate charity will welcome your donation whenever you choose to make it.
+         <br>
+        <br>
+A thank-you for a donation you don’t recall making. 
+<br>
+        <br>Making you think you’ve already given to the cause is a common 
+        trick unscrupulous fundraisers use to lower your resistance.
+        <br>
+        <br>
+A request for payment by cash, gift card or wire transfer. 
+Those are scammers' favored payment methods because the money is difficult to trace.
+      </p>
+    </div><br>
+
+    <button class="accordion">
+      <b>What are Laws related to this crime?</b>
+    </button>
+    <div class="panel">
+      <p style="font-size: 18px">
+        
+        <b>1) Charitable Trust Act</b>
+        <br>
+        <br>
+        Under the Indian Income Taxation Laws, a trust is considered as charitable,
+         if its objects are directed to the benefit of the society at large and not 
+         for an individual or group of individuals.
+         <br>
+         <br>
+         <b>2)The Indian Trusts Act, 1882</b>
+         <br>
+         <br>
+         This Act may be called the Indian Trusts Act, 1882, and it shall come into 
+         force on the first day of March, 1882. Local extent.—1[It extends to 
+         2[the whole of India 3[except the State of Jammu and Kashmir] and] the 
+         Andaman and Nicobar Islands, 4[***]; but the Central Government may, from time to time, 
+         by notification in the Official Gazette, extend it to 5[the Andaman and Nicobar Islands]
+          or to any part thereof.]
+    </p> 
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
