@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Justice Vision
+  </title>
+  <link href="GunVio.css" rel="stylesheet"/>
+  <link href="style2.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .accordion {
+        background-color: #eee;
+        color: #000000;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+       
+      }
+
+      .active,
+      .accordion:hover {
+        background-color: #deb887;
+      }
+
+      .accordion:after {
+        content: "\002B";
+        color: #000000;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+      }
+
+      .active:after {
+        content: "\2212";
+      }
+
+      .panel {
+        padding: 0 18px;
+        background-color: #deb887;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div id="header">
+      <div id="lefth" >
+        <img src="/images/logo1.jpeg" class="image">
+        
+      </div>
+      <div id="midh">
+        <h3>JUSTICE VISION</h3>
+      </div>
+      <div id="righth">
+        <ul>
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+           
+            <li><a href="contact.html">Contact Us</a></li>
+           
+        </ul>
+      </div>
+  </div><br><br><br><br><br>
+
+  <div id = "gun">
+    <h1>&nbsp;GUN VIOLENCE</h1>
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+    
+    <button class="accordion"><b>Gun Violence Prediction and Prevention at the Individual Level</b></button>
+    <div class="panel">
+      <p style="font-size: 18px">
+        A natural starting point for the prevention of gun violence is to identify individuals who are at risk 
+        for violence and in need of assistance. Efforts focused on at-risk individuals are considered secondary
+        prevention because they are distinguished from primary or universal prevention efforts that address the
+        general population. Secondary prevention strategies for gun violence can include such actions as providing
+        prompt mental health treatment for an acutely depressed and suicidal person or conducting a threat 
+        assessment of a person who has threatened gun violence against a spouse or work supervisor
+      </p>
+    </div><br>
+
+    <button class="accordion"><b>How to file a case?</b></button>
+    <div class="panel">
+      <p style="font-size: 18px">
+        You can call at toll free number:1800-102-7222 to report the crime
+      </p>
+    </div><br>
+
+    <button class="accordion"><b>When to file a case?</b></button>
+    <div class="panel">
+      <p style="font-size: 18px">
+        If you identify the following scenarios then immidietly report :
+        <br>
+        <br>
+        1)If you see someone in gun violence or is suffering from it.
+        <br>
+        <br>
+
+      </p>
+    </div><br>
+
+    <button class="accordion">
+      <b>What are Laws related to this crime?</b>
+    </button>
+    <div class="panel">
+      <p style="font-size: 18px">
+        Major federal gun laws
+        Most federal gun laws are found in the following acts:
+        
+        National Firearms Act ("NFA") (1934): Taxes the manufacture and transfer of, and mandates the registration of Title II weapons such as machine guns, short-barreled rifles and shotguns, heavy weapons, explosive ordnance, suppressors, and disguised or improvised firearms.
+        Federal Firearms Act of 1938 ("FFA"): Requires that gun manufacturers, importers, and those in the business of selling firearms have a Federal Firearms License (FFL). Prohibits the transfer of firearms to certain classes of people, such as convicted felons.
+        <br><br>
+        Omnibus Crime Control and Safe Streets Act of 1968 (1968): Prohibited interstate trade in handguns, increased the minimum age to 21 for buying handguns.
+        Gun Control Act of 1968 ("GCA"): Focuses primarily on regulating interstate commerce in firearms by generally prohibiting interstate firearms transfers except among licensed manufacturers, dealers and importers.
+        <br><br>
+        Firearm Owners Protection Act ("FOPA") (1986): Revised and partially repealed the Gun Control Act of 1968. Prohibited the sale to civilians of automatic firearms manufactured after the date of the law's passage. Required ATF approval of transfers of automatic firearms.
+        <br><br>
+        Undetectable Firearms Act (1988): Effectively criminalizes, with a few exceptions, the manufacture, importation, sale, shipment, delivery, possession, transfer, or receipt of firearms with less than 3.7 oz of metal content.
+        <br><br>
+        Gun-Free School Zones Act (1990): Prohibits unauthorized individuals from knowingly possessing a firearm at a place that the individual knows, or has reasonable cause to believe, is a school zone.
+        <br><br>
+        Brady Handgun Violence Prevention Act (1993): Requires background checks on most firearm purchasers, depending on seller and venue.
+        <br><br>
+        Federal Assault Weapons Ban (1994–2004): Banned semiautomatics that looked like assault weapons and large capacity ammunition feeding devices. The law expired in 2004.
+        <br><br>
+        Law Enforcement Officers Safety Act (2004): Granted law enforcement officers and former law enforcement officers the right to carry a concealed firearm in any jurisdiction in the United States, regardless of state or local laws, with certain exceptions.
+        <br><br>
+        Protection of Lawful Commerce in Arms Act (2005): Prevents firearms manufacturers and licensed dealers from being held liable for negligence when crimes have been committed with their products.
+    </p> 
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
