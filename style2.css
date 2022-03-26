@@ -133,8 +133,24 @@
       #main6{
           margin-top: 100px;
           float: left;
-          margin-left: 140px;
+          margin-left: 100px;
       }
+      #main7{
+        float: right;
+        margin-right: 180px;
+        margin-bottom: 100px;
+    }
+
+    #mainF{
+        height: 70px;
+       width: 100%;
+       margin-top: 500px;
+       background-color: darkred;
+       color: white;
+       font-size: 30px;
+       box-shadow: 2px 2px 5px lightgrey;
+       padding: 5px;
+    }
 
       
    
